@@ -1,6 +1,5 @@
 <?php
 
-
 class Hash {
 
   public $function = "RAND";
