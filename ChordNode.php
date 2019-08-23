@@ -17,8 +17,7 @@ class ChordNode {
 
   function findSuccessor($key) {
 
-    if(is_string($key))
-    {
+    if(is_string($key)) {
       $key = new ChordKey($key);
     }
     
@@ -157,5 +156,4 @@ class ChordNode {
   function setFingerTable($fingerTable) {
     $this->fingerTable = $fingerTable;
   }
-
 }
