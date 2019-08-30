@@ -80,5 +80,4 @@ class ChordKey {
   public function setKey($key) {
     $this->key = $key;
   }
-
 }
