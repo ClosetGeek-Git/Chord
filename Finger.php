@@ -25,5 +25,4 @@ class Finger {
   function setNode($node) {
     $this->node = $node;
   }
-
 }
