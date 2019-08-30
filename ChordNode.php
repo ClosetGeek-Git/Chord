@@ -16,7 +16,6 @@ class ChordNode {
   }
 
   function findSuccessor($key) {
-
     if(is_string($key)) {
       $key = new ChordKey($key);
     }
